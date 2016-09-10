@@ -3,6 +3,8 @@ import json
 import requests
 import tweepy
 
+SECRETS_FILE = "secrets.json"
+
 def main():
     # Twitter API setup
     with open(SECRETS_FILE) as f:
