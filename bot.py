@@ -13,7 +13,7 @@ def main():
 		if not tweet['retweeted'] and 'RT @' not in tweet['text']:
 			if 'soccer' in tweet['text']:
 				print tweet
-
+				
 def authorize():
     # Twitter API setup
     with open(SECRETS_FILE) as f:
